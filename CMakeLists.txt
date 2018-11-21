@@ -6,7 +6,7 @@ project( doublevector CXX )
 # Gather files and store paths in CMake variables
 file( GLOB LIBRARY_SOURCE_FILES library/src/*.cpp )
 file( GLOB TEST_SOURCE_FILES library/test/*.cpp )
-file( GLOB HEADER_FILES inc/*.h* )
+file( GLOB HEADER_FILES library/inc/*.h* )
 
 # Specify the folders with header files, otherwise our includes are not found 
 include_directories( external/catch )
